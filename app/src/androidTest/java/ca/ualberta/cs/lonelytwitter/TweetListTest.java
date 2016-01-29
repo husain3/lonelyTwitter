@@ -38,7 +38,7 @@ public class TweetListTest extends ActivityInstrumentationTestCase2{
         Tweet tweet = new NormalTweet("Test tweet");
 
         tweets.add(tweet);
-        tweets.delete(tweet);
+        tweets.removeTweet(tweet);
 
         assertFalse(tweets.hasTweet(tweet));
     }
