@@ -14,6 +14,7 @@ import java.util.Date;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -23,8 +24,83 @@ import android.widget.ListView;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+/*
+* this main activity for a small personal Twitter app to capture, notes, and comments.
+* <p>It saves the <pre>input tweets</pre> in the json files </p>
+*
+*   <code>
+*
+*
+*   </code>
+* @since 1.2.1
+* @see LonelytwitterActivity for more information
+* */
+
+
 
 public class LonelyTwitterActivity extends Activity {
+	public ArrayList<String> listOfItems;
+	static final String GENERAL_FILE_NAME = "fileName.json"
+	private int calculateTweetSize()
+	{
+		//
+		return -1;
+	}
+
+	private String removeStopWords (String text)
+	{
+		//
+		return "";
+
+	}
+
+	private void startSecondActivity(Intent intent)
+	{
+		//
+	}
+
+
+	public String someMethod(String s, String s1, String s2, String s3)
+	{
+		return "";
+
+	}
+
+
+
+	private boolean evaluateOtherActivity(Intent intent)
+	{
+		int count = 0;
+		intent = new Intent();
+		String expression1 = "", expression2 = "", expression3 = "", expression4 = "",
+		startSecondActivity(intent);
+		String S = someMethod(expression1, expression2, expression3, expression4);
+		someMethod(expression1, expression2, expression3, expression4);
+
+		
+		
+		try {
+			int a = 1;
+			int b = 2;
+			if (a < 2){
+											
+				someMethod("First choice");
+			}
+			else {
+				someMethod("Second choice");
+			}		//
+
+		} catch (Exception e) {
+
+            while (1 < 2) {
+
+                int j = 0;
+
+
+            }
+        }
+		return true;
+    }
 
 	private static final String FILENAME = "file.sav";
 	private EditText bodyText;
