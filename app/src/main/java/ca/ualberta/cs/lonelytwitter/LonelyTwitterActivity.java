@@ -50,11 +50,20 @@ public class LonelyTwitterActivity extends Activity {
 	public ArrayList<String> listOfItems;
 	static final String GENERAL_FILE_NAME = "fielName.json";
 
+
+	/**
+	 * This function calculates the tweet size
+	 * @return calculateTweetSize returns -1 reagardless
+	 */
 	private int calculateTweetSize(){
 		//
 		return -1;
 	}
-
+	/**
+	 * This function calculates the tweet size
+	 * @param text this is the text that needs to be read to removre the stop words
+	 * @return removeStopWords returns "" regardless
+	 */
 	private String removeStopWords(String text){
 		//
 		return "";
@@ -73,12 +82,19 @@ public class LonelyTwitterActivity extends Activity {
 	 * @param s is some parameter!
 	 * @return The value that is used for some job!
 	 * @throws ...
-	 * @deprecated
 	 */
 	public String someMethod(String s){
 		return "";
 	}
 
+
+	/**
+	 * This method does something!
+	 * @param intent is some parameter!
+	 * @return returns true or false whether the throws an exception
+	 * @throws Exception
+	 * 			if the there are mathematical errors regarding numbers
+	 */
 	public boolean evaluateOtherActivity(Intent intent){
 		int count = 0;
 		String s = "";
@@ -137,6 +153,9 @@ public class LonelyTwitterActivity extends Activity {
 	}
 
 	@Override
+	/**
+	* Called after onStart
+	* */
 	protected void onStart() {
 		// TODO Auto-generated method stub
 		super.onStart();
@@ -145,7 +164,10 @@ public class LonelyTwitterActivity extends Activity {
 				R.layout.list_item, tweets);
 		oldTweetsList.setAdapter(adapter);
 	}
-
+	/**
+	 * This function loads the tweet from a file
+	 * @return <code>tweets.toArray(new String[tweets.size()]);</code>
+	 * */
 	private String[] loadFromFile() {
 		ArrayList<String> tweets = new ArrayList<String>();
 		try {
@@ -166,7 +188,16 @@ public class LonelyTwitterActivity extends Activity {
 		}
 		return tweets.toArray(new String[tweets.size()]);
 	}
-	
+
+	/**
+	 * This method does something!
+	 * @param text is the tweet that needs to be saved
+	 * @param date is the date that the tweet was made
+	 * @throws FileNotFoundException
+	 * 			if the filename wasn't found
+	 * @throws IOException
+	 * 			if there wa a problem saving to a known file
+	 */
 	private void saveInFile(String text, Date date) {
 		try {
 			FileOutputStream fos = openFileOutput(FILENAME,
