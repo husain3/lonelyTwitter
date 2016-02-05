@@ -154,7 +154,7 @@ public class LonelyTwitterActivity extends Activity {
 
 	@Override
 	/**
-	* Called after onStart
+	* Called after onCreate
 	* */
 	protected void onStart() {
 		// TODO Auto-generated method stub

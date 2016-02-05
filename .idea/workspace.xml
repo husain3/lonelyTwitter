@@ -24,13 +24,13 @@
       <file leaf-file-name="LonelyTwitterActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.5152998">
-              <caret line="156" column="26" selection-start-line="156" selection-start-column="26" selection-end-line="156" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.5226438">
+              <caret line="156" column="27" selection-start-line="156" selection-start-column="27" selection-end-line="156" selection-end-column="27" />
               <folding>
                 <element signature="e#3696#3917#0" expanded="true" />
                 <element signature="e#3916#3917#0" expanded="true" />
-                <element signature="e#4139#4147#0" expanded="true" />
-                <element signature="e#4430#4438#0" expanded="true" />
+                <element signature="e#4140#4148#0" expanded="true" />
+                <element signature="e#4431#4439#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1771,21 +1771,21 @@
           <folding>
             <element signature="e#3696#3917#0" expanded="true" />
             <element signature="e#3916#3917#0" expanded="true" />
-            <element signature="e#4139#4147#0" expanded="true" />
-            <element signature="e#4430#4438#0" expanded="true" />
+            <element signature="e#4140#4148#0" expanded="true" />
+            <element signature="e#4431#4439#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.5152998">
-          <caret line="156" column="26" selection-start-line="156" selection-start-column="26" selection-end-line="156" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.5226438">
+          <caret line="156" column="27" selection-start-line="156" selection-start-column="27" selection-end-line="156" selection-end-column="27" />
           <folding>
             <element signature="e#3696#3917#0" expanded="true" />
             <element signature="e#3916#3917#0" expanded="true" />
-            <element signature="e#4139#4147#0" expanded="true" />
-            <element signature="e#4430#4438#0" expanded="true" />
+            <element signature="e#4140#4148#0" expanded="true" />
+            <element signature="e#4431#4439#0" expanded="true" />
           </folding>
         </state>
       </provider>
