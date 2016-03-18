@@ -14,6 +14,7 @@ import android.widget.ImageButton;
 import android.widget.ListView;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.concurrent.ExecutionException;
 
 public class LonelyTwitterActivity extends Activity {
@@ -101,6 +102,7 @@ public class LonelyTwitterActivity extends Activity {
         }
 
         // Binds tweet list with view, so when our array updates, the view updates with it
+        Collections.reverse(tweets);
         adapter = new TweetAdapter(this, tweets); /* NEW! */
         oldTweetsList.setAdapter(adapter);
     }
